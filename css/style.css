@@ -1,0 +1,42 @@
+body {
+ 	display: flex;  /* defaults to row layout */
+ 	justify-content: center;  /* centers items horizontally in row layout */
+ 	align-items: center; 
+}
+
+.form {
+ 	display: flex;  /* defaults to row layout */
+ 	justify-content: center;  /* centers items horizontally in row layout */
+ 	align-items: center;  /* centers vertically in row layout */
+ 	/* flex-direction: column; will set layout to column instead of row */
+ 	position:absolute;
+  	top:20%; bottom:20%
+}
+
+
+input[type="button"] {
+	margin: 0px 20px 0px;
+	width: 75px;
+	height: 75px;
+	border-radius: 5px;
+	color: white;
+	background-color: grey;
+	font-size: 200%;
+}
+
+input[type="text"] {
+	margin: 0px 20px 0px;
+	width: 200px;
+	height: 70px;
+	border-radius: 5px;
+	border-color: grey;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 150%;
+}
+
+.result {
+	font-size: 500%;
+	margin: 70px 0 5px;
+	color: grey;
+}
